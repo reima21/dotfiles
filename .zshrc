@@ -42,6 +42,7 @@ function mkdircd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
 # alias
 alias la='ls -a'
 alias ll='ls -alFG'
+alias g="git"
 alias gs='git status' # `git status`の確認
 alias gd='git diff' # `git diff`の確認
 alias gc='git commit' # commitする
